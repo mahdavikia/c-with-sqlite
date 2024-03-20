@@ -7,7 +7,7 @@
 ## Create Database:
 > $ sqlite3 phonebook.db
 ## Create Table:
-> CREATE TABLE phones (id integer NOT NULL, name text NOT NULL, mobile text NOT NULL, PRIMARY KEY (id AUTOINCREMENT));
+> $ sqlite3 CREATE TABLE phones (id integer NOT NULL, name text NOT NULL, mobile text NOT NULL, PRIMARY KEY (id AUTOINCREMENT));
 ## Insert into table:
 > INSERT INTO phones VALUES (1, "Mohammad", "09126168235");
 ## Check list of data:
@@ -16,7 +16,7 @@
 > 1|Mohammad|09126168235
 ## Compile code with C Compiler:
 > $ gcc phonebook.c -lsqlite3 -o phonebook
-## Run executable program:
+### Run executable program:
 > $ ./phonebook
 
 
